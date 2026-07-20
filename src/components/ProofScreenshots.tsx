@@ -7,13 +7,13 @@ export default function ProofScreenshots() {
       id: "proof-1",
       src: "/seller-central-performance-1.jpg",
       period: "Jun 8 - Jul 8, 2026",
-      caption: "9.83% ACoS at a 10.18 ROAS across a 30-day stretch.",
+      caption: "$141,002.70 in sales driven from $31,695.92 in ad spend.",
     },
     {
       id: "proof-2",
       src: "/seller-central-performance-2.jpg",
       period: "Jun 8 - Jul 8, 2026",
-      caption: "$141,002.70 in sales driven from $31,695.92 in ad spend.",
+      caption: "9.83% ACoS at a 10.18 ROAS across a 30-day stretch.",
     },
     {
       id: "proof-3",
