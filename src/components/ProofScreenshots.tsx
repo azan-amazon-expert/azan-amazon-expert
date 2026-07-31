@@ -7,19 +7,25 @@ export default function ProofScreenshots() {
       id: "proof-1",
       src: "/seller-central-performance-1.jpg",
       period: "Jun 8 - Jul 8, 2026",
-      caption: "$141,002.70 in sales driven from $31,695.92 in ad spend.",
+      caption: "9.83% ACoS at a 10.18 ROAS across a 30-day stretch.",
     },
     {
       id: "proof-2",
       src: "/seller-central-performance-2.jpg",
       period: "Jun 8 - Jul 8, 2026",
-      caption: "9.83% ACoS at a 10.18 ROAS across a 30-day stretch.",
+      caption: "$141,002.70 in sales driven from $31,695.92 in ad spend.",
     },
     {
       id: "proof-3",
       src: "/seller-central-performance-3.png",
       period: "Jun 17 - Jul 17, 2026",
       caption: "11.23% ACoS sustained at an 8.90 ROAS over the following month.",
+    },
+    {
+      id: "proof-4",
+      src: "/seller-central-performance-4.jpg",
+      period: "Jun 28 - Jul 28, 2026",
+      caption: "25.03% ACoS with $174,677.54 in sales generated from $43,728.60 ad spend.",
     },
   ];
 
@@ -43,7 +49,7 @@ export default function ProofScreenshots() {
         </div>
 
         {/* Screenshots Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {screenshots.map((shot, index) => (
             <motion.div
               key={shot.id}
