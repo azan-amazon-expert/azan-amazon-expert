@@ -23,7 +23,7 @@ export default function ProofScreenshots() {
     },
     {
       id: "proof-4",
-      src: "/seller-central-performance-5.jpg",
+      src: "/seller-central-performance-4.JPG",
       period: "Jun 28 - Jul 28, 2026",
       caption: "25.03% ACoS with $174,677.54 in sales generated from $43,728.60 ad spend.",
     },
